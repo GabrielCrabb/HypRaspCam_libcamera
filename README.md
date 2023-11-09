@@ -1,25 +1,15 @@
-//------------------------------
-INSTALL
-------------------------------//
+
+# INSTALL
 
 sudo apt-get update
 
-git clone --depth=1 https://github.com/JairoSalazarV/HypRaspCam
+git clone --depth=1 https://github.com/GabrielCrabb/HypRaspCam_libcamera
 
-cd HypRaspCam/
+cd HypRaspCam_libcamera/
 
 sudo chmod a+x install.sh
 
 sudo ./install.sh
-
-//-------------------------------------------------------------------------//
-
-NOTES:
-1) This program assumes that your camera has been configured and tested successfully
-
-2) You could change Camera ID on the file: /home/pi/camName.HypRaspCam
-
-3) Tested on NOOBS V3.0.0 on September 05, 2019
 
   
 
